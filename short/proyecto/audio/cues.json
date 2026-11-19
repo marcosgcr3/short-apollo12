@@ -1,0 +1,131 @@
+{
+  "keep_audio": "yes",
+  "cues": [
+    {
+      "gain_db": -1,
+      "anchor": "start",
+      "role": "vehicle",
+      "lowpass": 650,
+      "t": 0.0,
+      "fade_in": 0.24,
+      "slice": [
+        1.0,
+        4.4
+      ],
+      "label": "Despegue",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/despegue-real.mp3",
+      "highpass": 52,
+      "fade_out": 0.85
+    },
+    {
+      "gain_db": -14,
+      "anchor": "start",
+      "role": "hit",
+      "lowpass": 2400,
+      "t": 4.166666666666667,
+      "slice": [
+        21.312,
+        1.75
+      ],
+      "label": "Primer rayo",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/trueno-fission9.mp3",
+      "highpass": 65,
+      "fade_out": 0.39
+    },
+    {
+      "gain_db": -8,
+      "anchor": "start",
+      "role": "hit",
+      "lowpass": 2600,
+      "t": 7.233333333333333,
+      "slice": [
+        4.94,
+        1.16
+      ],
+      "label": "Segundo rayo",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/trueno-cognito.mp3",
+      "highpass": 90,
+      "fade_out": 0.24
+    },
+    {
+      "anchor": "start",
+      "role": "error",
+      "lowpass": 3600,
+      "t": 10.7,
+      "slice": [
+        3.564,
+        0.546
+      ],
+      "label": "Alarmas de cabina",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/alarma-real.mp3",
+      "gain_db": -3,
+      "fade_out": 0.08
+    },
+    {
+      "gain_db": -1,
+      "anchor": "start",
+      "role": "click",
+      "t": 30.866666666666667,
+      "slice": [
+        3.005,
+        0.28
+      ],
+      "label": "La palanca entra en AUX",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/interruptor-loganzsound.mp3",
+      "highpass": 115,
+      "fade_out": 0.05
+    },
+    {
+      "slice": [
+        15.0,
+        10.9
+      ],
+      "label": "Ambiente de control",
+      "gain_db": -11,
+      "anchor": "start",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/houston-ambiente.mp3",
+      "role": "ambience",
+      "fade_in": 0.32,
+      "t": 11.86,
+      "highpass": 100,
+      "lowpass": 2700,
+      "fade_out": 0.38
+    },
+    {
+      "slice": [
+        26.0,
+        1.53
+      ],
+      "label": "Ambiente de radio",
+      "gain_db": -11,
+      "anchor": "start",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/houston-ambiente.mp3",
+      "role": "ambience",
+      "fade_in": 0.21,
+      "t": 26.34,
+      "highpass": 100,
+      "lowpass": 2700,
+      "fade_out": 0.24
+    },
+    {
+      "slice": [
+        31.0,
+        2.16
+      ],
+      "label": "Ambiente al recuperar datos",
+      "gain_db": -11,
+      "anchor": "start",
+      "file": "D:/Videos IA/apollo-12/short/proyecto/audio/houston-ambiente.mp3",
+      "role": "ambience",
+      "fade_in": 0.21,
+      "t": 31.9,
+      "highpass": 100,
+      "lowpass": 2700,
+      "fade_out": 0.25
+    }
+  ],
+  "base_audio": [
+    "D:/Videos IA/apollo-12/short/proyecto/audio/voice-original.mp3"
+  ],
+  "video": "D:/Videos IA/apollo-12/short/proyecto/base-imagen.mp4"
+}
